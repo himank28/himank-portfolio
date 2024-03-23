@@ -109,22 +109,22 @@ const educationInfo = {
   schools: [
     {
       schoolName: "St John College of Engineering and Management",
-      logo: require("./assets/images/harvardLogo.png"),
+      logo: require("./assets/images/JohnLogo.jpeg"),
       subHeader: "Bachelor of Electronics and Communication",
       duration: "August 2014 - April 2018",
-      desc: "Ranked top 10% in the program. Took courses about Software Engineering, Web Security, Operating Systems, ...",
+      desc: "Ranked top 10% in the program.",
       descBullets: [
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit"
+        "Took courses about Software Engineering, Web Security, Operating Systems, ...",
+        "Organised seminars and technical events."
       ]
     },
     {
       schoolName: "VIVA College",
-      logo: require("./assets/images/stanfordLogo.png"),
-      subHeader: "HSC in Electronics as speciality",
+      logo: require("./assets/images/VivaLogo.png"),
+      subHeader: "HSC Degree",
       duration: "August 2012 - April 2014",
-      desc: "Secured 20% among the batch. Took interest in curricular activities and got smooth in public speaking, organizing events ...",
-      descBullets: ["Lorem ipsum dolor sit amet, consectetur adipiscing elit"]
+      desc: "Secured 20% among the batch.",
+      descBullets: ["Took interest in curricular activities and got smooth in public speaking, organizing events ..."]
     }
   ]
 };
@@ -164,10 +164,11 @@ const workExperiences = {
       company: "Currencies Direct",
       companylogo: require("./assets/images/currencies_direct_logo.jpeg"),
       date: "August 2023 – Present",
-      desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+      desc: "Design and create Robust scalable event based microservices for international payment compliance checks",
       descBullets: [
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit"
+      "Building web and middleware applications as per the requirement with appropriate technology as suits the application.",
+      "Involved in the complete SDLC process from requirement analysis to delivery on production , including support.",
+      "Providing Client-Centric solutions for enhancement of application and increase in its usage.",
       ]
     },
     {
@@ -175,14 +176,27 @@ const workExperiences = {
       company: "Aynara Technologies",
       companylogo: require("./assets/images/AynaraLogo.jpeg"),
       date: "July 2022 – July 2023",
-      desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+      desc: "Work on Microservice application and migrate to Springboot and Angular tech stack.",
+      descBullets:[
+      "Handle Estimation to delivery,each step as per the standard process defined by the company.",
+      "Deploying application in all environments and fixing bugs.",
+      "Handling production issues and QA bugs of application.",
+      "Documentation for solutions and approaches implemented in application."
+      ]
     },
     {
       role: "Software Engineer",
       company: "Neebal Technologies",
       companylogo: require("./assets/images/NeebalLogo.png"),
       date: "Dec 2018 – June 2022",
-      desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+      desc: "Started of as Trainee and moved up to be a Team Lead for Banking client.",
+      descBullets: [
+        "Worked as Team lead for a 7 member team , handling banking projects with Java, Springboot and varied technologies for appropriate solutions.",
+        "In depth understanding of Spark Architecture including Spark Core, SparkSQL, DataFrames,Spark Streaming, Spark Mlib.",
+        "Experience in various big data application phases like data ingestion, data analytics, data visualization.",
+        "Handle Estimation to delivery,each step as per the standard process defined by the company."
+      ]
+
     }
   ]
 };
@@ -199,12 +213,12 @@ const openSource = {
 
 const bigProjects = {
   title: "Big Projects",
-  subtitle: "SOME STARTUPS AND COMPANIES THAT I HELPED TO CREATE THEIR TECH",
+  subtitle: "SOME COMPANIES THAT I HELPED TO CREATE THEIR TECH PROJECTS",
   projects: [
     {
       image: require("./assets/images/AmeriSave-Logo.jpg"),
       projectName: "Amerisave Rules Engine",
-      projectDesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+      projectDesc: "Complete Digital mortgage processing rules engine to process loans seamlessly.",
       footerLink: [
         {
           name: "Visit Website",
@@ -216,7 +230,7 @@ const bigProjects = {
     {
       image: require("./assets/images/YesBankLogo.png"),
       projectName: "Yes Bank ",
-      projectDesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+      projectDesc: "Corporate web portal and payment processing service.",
       footerLink: [
         {
           name: "Visit Website",
@@ -284,7 +298,7 @@ const blogSection = {
         "React is a JavaScript library for building User Interface. It is maintained by Facebook and a community of individual developers and companies."
     }
   ],
-  display: true // Set false to hide this section, defaults to true
+  display: false // Set false to hide this section, defaults to true
 };
 
 // Talks Sections
