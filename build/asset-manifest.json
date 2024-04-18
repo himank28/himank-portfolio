@@ -1,11 +1,11 @@
 {
   "files": {
     "main.css": "/himank-portfolio/static/css/main.08c35277.css",
-    "main.js": "/himank-portfolio/static/js/main.7eef6a10.js",
+    "main.js": "/himank-portfolio/static/js/main.e8e913cd.js",
     "static/css/64.bba8fa55.chunk.css": "/himank-portfolio/static/css/64.bba8fa55.chunk.css",
-    "static/js/64.c2db52b4.chunk.js": "/himank-portfolio/static/js/64.c2db52b4.chunk.js",
+    "static/js/64.54251c6c.chunk.js": "/himank-portfolio/static/js/64.54251c6c.chunk.js",
     "static/css/769.b3cbb36b.chunk.css": "/himank-portfolio/static/css/769.b3cbb36b.chunk.css",
-    "static/js/769.672daaf6.chunk.js": "/himank-portfolio/static/js/769.672daaf6.chunk.js",
+    "static/js/769.7cd4a69b.chunk.js": "/himank-portfolio/static/js/769.7cd4a69b.chunk.js",
     "static/media/Montserrat-Regular.ttf": "/himank-portfolio/static/media/Montserrat-Regular.3cd786652b8a2e9d41f2.ttf",
     "static/media/Agustina.woff": "/himank-portfolio/static/media/Agustina.eb0c59dda4cc308cba96.woff",
     "static/media/manOnTable.svg": "/himank-portfolio/static/media/manOnTable.8f117eb207e57ed8f89d67d595aceb45.svg",
@@ -19,14 +19,14 @@
     "index.html": "/himank-portfolio/index.html",
     "static/media/talksCardBack.svg": "/himank-portfolio/static/media/talksCardBack.73ed1545d58273ba64b0.svg",
     "main.08c35277.css.map": "/himank-portfolio/static/css/main.08c35277.css.map",
-    "main.7eef6a10.js.map": "/himank-portfolio/static/js/main.7eef6a10.js.map",
+    "main.e8e913cd.js.map": "/himank-portfolio/static/js/main.e8e913cd.js.map",
     "64.bba8fa55.chunk.css.map": "/himank-portfolio/static/css/64.bba8fa55.chunk.css.map",
-    "64.c2db52b4.chunk.js.map": "/himank-portfolio/static/js/64.c2db52b4.chunk.js.map",
+    "64.54251c6c.chunk.js.map": "/himank-portfolio/static/js/64.54251c6c.chunk.js.map",
     "769.b3cbb36b.chunk.css.map": "/himank-portfolio/static/css/769.b3cbb36b.chunk.css.map",
-    "769.672daaf6.chunk.js.map": "/himank-portfolio/static/js/769.672daaf6.chunk.js.map"
+    "769.7cd4a69b.chunk.js.map": "/himank-portfolio/static/js/769.7cd4a69b.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.08c35277.css",
-    "static/js/main.7eef6a10.js"
+    "static/js/main.e8e913cd.js"
   ]
 }

@@ -1,13 +1,12 @@
 {
   "homepage": "https://himank28.github.io/himank-portfolio",
-  "name": "himank-portfolio",
+  "name": "himankportfolio",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
     "colorthief": "^2.3.0",
     "enzyme": "^3.11.0",
     "enzyme-adapter-react-16": "^1.15.6",
-    "gh-pages": "^2.1.1",
     "jest-canvas-mock": "^2.3.1",
     "lottie-react": "^2.4.0",
     "react": "^16.10.2",
@@ -21,8 +20,8 @@
     "sass": "^1.32.8"
   },
   "scripts": {
-    "start": "node fetch.js && react-scripts start",
     "predeploy": "npm run build",
+    "start": "node fetch.js && react-scripts start",
     "build": "node fetch.js && react-scripts build",
     "deploy": "gh-pages -d build",
     "test": "react-scripts test",
@@ -53,6 +52,7 @@
   "devDependencies": {
     "@babel/plugin-proposal-private-property-in-object": "^7.21.11",
     "dotenv": "^8.2.0",
+    "gh-pages": "^6.1.1",
     "prettier": "^2.3.1"
   }
 }
