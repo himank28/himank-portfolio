@@ -2,14 +2,14 @@
   font-family: "Agustina Regular";
   font-style: normal;
   font-weight: normal;
-  src: local("Agustina Regular"),
-    url("/fonts/Agustina.21f233e1.woff") format("woff");
+  src: 
+    url("./assets/fonts/Agustina.woff") format("woff");
   font-display: swap;
 }
 @font-face {
   font-family: "Montserrat";
-  src: local("Montserrat"),
-    url("/fonts/Montserrat-Regular.ee653992.ttf") format("woff");
+  src: 
+    url("./assets/fonts/Montserrat-Regular.ttf") format("truetype");
   font-display: swap;
 }
 code {
